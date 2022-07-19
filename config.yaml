@@ -1,0 +1,16 @@
+feishu:
+  APP_ID: cli_a2f7b8188938d00c
+  APP_SECRET: Ow7Yp03CrlWBq0b7dzATNhpYN7jy3Hv8
+  VERIFICATION_TOKEN: yr6uh2gogqs8jNt5iBhCpd3M46MbP3vc
+  LARK_HOST: "https://open.feishu.cn"
+  ENCRYPT_KEY: z6W55UPfCAST8rQI8G2nTeWddyJb7RuN
+
+server:
+  PORT: 3000
+
+dept_names:
+  Software: "软件技术团队"
+  Hardware: "硬件技术团队"
+  Operation: "运营团队"
+  Design  : "设计团队"
+
