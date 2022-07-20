@@ -6,7 +6,7 @@ feishu:
   ENCRYPT_KEY: z6W55UPfCAST8rQI8G2nTeWddyJb7RuN
 
 server:
-  PORT: 3000
+  PORT: 5050
 
 
 dept_names:

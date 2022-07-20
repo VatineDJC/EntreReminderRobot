@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt -i "https://mi
 CMD cd /app && python3.10 ./test_alive.py \
    && python3.10 ./main.py
 
-EXPOSE 3000
+EXPOSE 5050
