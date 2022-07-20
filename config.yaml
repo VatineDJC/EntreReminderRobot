@@ -6,8 +6,8 @@ feishu:
   ENCRYPT_KEY: z6W55UPfCAST8rQI8G2nTeWddyJb7RuN
 
 server:
-  PORT: 3000
-  
+  PORT: 80
+
 
 dept_names:
   Software: "软件技术团队"
