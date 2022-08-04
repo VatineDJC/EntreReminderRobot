@@ -12,6 +12,6 @@ server:
 dept_names:
   Software: "软件技术团队"
   Hardware: "硬件技术团队"
-  Operation: "运营团队"
+  Product: "运营团队"
   Design  : "设计团队"
 

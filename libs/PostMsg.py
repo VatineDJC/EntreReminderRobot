@@ -90,17 +90,6 @@ def get_post_msg(department_name: str) -> dict[str, dict[str, str | list[
         ]
     ]
 
-    content_of_business = [[
-        {
-            "tag": "text",
-            "text": "运营团队必看："
-        },
-        {
-            "tag": "a",
-            "text": "运营团队必看",
-            "href": "https://xn4zlkzg4p.feishu.cn/wiki/wikcnRKGLBwVQ2XO3EYR7lPeqXb"
-        }
-    ]]
     content_of_soft = [[
         {
             "tag": "text",
@@ -197,7 +186,6 @@ def get_post_msg(department_name: str) -> dict[str, dict[str, str | list[
     ]]
 
     content_by_dept_name = {
-        config._cfg.get("dept_names")["Business"]: content_of_business,
         config._cfg.get("dept_names")["Software"]: content_of_soft,
         config._cfg.get("dept_names")["Hardware"]: content_of_hard,
         config._cfg.get("dept_names")["Product"]: content_of_product,

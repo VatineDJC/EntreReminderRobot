@@ -1,16 +1,13 @@
-[2022-07-19 22:48:53,203] [INFO] - config.readConfig (config.py:36) - Config loading success
-[2022-07-19 22:48:53,215] [INFO] - main.main (main.py:31) - Robot start up
-[2022-07-19 22:48:53,219] [INFO] - config.readConfig (config.py:36) - Config loading success
-[2022-07-19 22:48:53,423] [INFO] - ApiBase._authorize_tenant_access_token (ApiBase.py:158) - got tenant_access_token: t-f20820b2273d0ef36085a2a0e158ea3637882062
-[2022-07-19 22:48:53,630] [INFO] - base.add_job (base.py:444) - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-[2022-07-19 22:48:53,632] [INFO] - base._real_add_job (base.py:885) - Added job "_ApiClient._authorize_tenant_access_token" to job store "default"
-[2022-07-19 22:48:53,632] [INFO] - base.start (base.py:171) - Scheduler started
-[2022-07-19 22:48:53,642] [INFO] - _internal._log (_internal.py:224) -  * Running on all addresses (0.0.0.0)
+[2022-08-04 16:12:28,182] [INFO] - config.readConfig (config.py:36) - Config loading success
+[2022-08-04 16:12:28,188] [INFO] - main.main (main.py:31) - Robot start up
+[2022-08-04 16:12:28,189] [INFO] - config.readConfig (config.py:36) - Config loading success
+[2022-08-04 16:12:28,516] [INFO] - ApiBase._authorize_tenant_access_token (ApiBase.py:158) - got tenant_access_token: t-999cc56db320d1ffdb46eb0709156d77168ec617
+[2022-08-04 16:12:28,581] [INFO] - base.add_job (base.py:444) - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2022-08-04 16:12:28,582] [INFO] - base._real_add_job (base.py:885) - Added job "_ApiClient._authorize_tenant_access_token" to job store "default"
+[2022-08-04 16:12:28,582] [INFO] - base.start (base.py:171) - Scheduler started
+[2022-08-04 16:12:28,587] [INFO] - _internal._log (_internal.py:224) -  * Running on all addresses (0.0.0.0)
    WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:3000
- * Running on http://10.181.200.38:3000 (Press CTRL+C to quit)
-[2022-07-19 22:49:19,043] [WARNING] - event_handler.message_receive_event_handler (event_handler.py:27) - repeated event
-[2022-07-19 22:49:19,044] [INFO] - _internal._log (_internal.py:224) - 127.0.0.1 - - [19/Jul/2022 22:49:19] "POST / HTTP/1.1" 200 -
-[2022-07-19 22:51:13,224] [INFO] - _internal._log (_internal.py:224) - 127.0.0.1 - - [19/Jul/2022 22:51:13] "POST / HTTP/1.1" 200 -
-[2022-07-19 22:51:35,515] [INFO] - _internal._log (_internal.py:224) - 127.0.0.1 - - [19/Jul/2022 22:51:35] "POST / HTTP/1.1" 200 -
-[2022-07-19 22:54:12,309] [INFO] - _internal._log (_internal.py:224) - 127.0.0.1 - - [19/Jul/2022 22:54:12] "POST / HTTP/1.1" 200 -
+ * Running on http://192.168.3.154:3000 (Press CTRL+C to quit)
+[2022-08-04 16:12:52,642] [INFO] - event_handler.employee_enter_event_handler (event_handler.py:48) - send a message to周楷程from软件
+[2022-08-04 16:12:53,285] [INFO] - _internal._log (_internal.py:224) - 127.0.0.1 - - [04/Aug/2022 16:12:53] "POST / HTTP/1.1" 200 -
